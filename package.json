@@ -1,0 +1,39 @@
+{
+  "name": "ajs-unit-my-matchers",
+  "version": "1.0.0",
+  "description": "second task unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakabunga/ajs-unit-my-matchers.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "second",
+    "task"
+  ],
+  "author": "vakabunga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakabunga/ajs-unit-my-matchers/issues"
+  },
+  "homepage": "https://github.com/vakabunga/ajs-unit-my-matchers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
